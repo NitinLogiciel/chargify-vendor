@@ -14,7 +14,7 @@ class ChargifyServiceProvider extends ServiceProvider
     public function boot()
     {
         // Route
-        include __DIR__.'/routes.php';
+        include __DIR__.'/Http/routes.php';
 
         // Language
         $this->loadTranslationsFrom( __DIR__.'/resources/lang', 'chargify');
