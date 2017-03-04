@@ -1,5 +1,5 @@
 {
-    "name": "Nitin/chargify",
+    "name": "nitin/chargify",
     "description": "Chargify SDK for PHP - Use the Chargify API in your PHP project",
     "type": "library",
     "keywords": ["laravel"],
