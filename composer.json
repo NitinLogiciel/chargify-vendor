@@ -1,0 +1,24 @@
+{
+    "name": "Nitin/chargify",
+    "description": "Chargify SDK for PHP - Use the Chargify API in your PHP project",
+    "type": "library",
+    "keywords": ["laravel"],
+    "authors": [
+        {
+            "name": "Nitin",
+            "email": "nitin.chamola@logicielsolutions.co.in"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "chargely/chargify-sdk-php": "0.1.1",
+        "guzzlehttp/guzzle": "6.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "KW\\Chargify\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "stable"
+}
